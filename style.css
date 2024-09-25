@@ -1,0 +1,82 @@
+html {
+  background: url(Images/6924603-clouds-background-hd-700x438.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+body {
+  background: rgba(255, 255, 255, 0.616);
+  width: 500px;
+  padding: 50px 100px;
+  margin: 51px auto;
+  border-radius: 30px;
+  font-family: Zen Kurenaido;
+}
+
+h1 {
+  font-size: 37px;
+  font-variant: small-caps;
+}
+
+h1,
+h2 {
+  font-family: Zen Dots;
+  color: midnightblue;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+button {
+  background: rgb(143, 201, 224);
+  padding: 5px 30px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#b2 {
+  color: white;
+  background: darkblue;
+  margin-left: 10px;
+  transition: background 1s, color 1s;
+}
+
+#b2:hover {
+  color: black;
+  background: rgb(131, 163, 231);
+}
+
+#results {
+  border: 1px solid orange;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  font-style: italic;
+  outline: inset orange;
+}
+
+ol {
+  margin-left: 75px;
+}
+
+#b1:hover {
+  background-color: royalblue;
+  color: azure;
+}
+
+#b1 {
+  background-color: rgb(143, 201, 224);
+  color: black;
+  transition: background 1s, color 1s;
+}
+
+.word {
+  font-variant: small-caps;
+}
+
+#words {
+  border: 2px solid rgba(255, 209, 58, 0.541);
+  background: rgba(255, 241, 193, 0.541);
+  border-radius: 40px;
+}
